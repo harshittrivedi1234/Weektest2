@@ -1,0 +1,107 @@
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 4rem;
+    position: fixed;
+    background-color: peru;
+    z-index: 2;
+    box-sizing: border-box;
+    margin-top:-8px ;
+
+    
+}
+.fa-brands>img{
+    height: 40px;
+    font-weight: bold;
+    margin-left: 240px;
+}
+
+.fb>img{
+    height: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+    
+    
+}
+
+.fc>img{
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 30px;
+}
+
+
+
+.info {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info>div {
+    font-size: 120%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+}
+#abt-sub {
+    position: absolute;
+    top: 90%;
+    left: 65%;
+    display: none;
+}
+.section1 {
+    display: flex;
+    position: relative;
+    top: 4rem;
+}
+.description {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.description>div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.PandL {
+    width: 50%;
+}
+.section2 {
+    position: relative;
+    top: 4rem;
+    background-color: gray;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 button {
+    border: none;
+    padding: 1%;
+    font-size: 110%;
+    color: black;
+    margin: 2%;
+    border-radius: 5px;
+}
+footer {
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+}
+footer div {
+    text-align: center;
+    color: wheat;
+}
+
